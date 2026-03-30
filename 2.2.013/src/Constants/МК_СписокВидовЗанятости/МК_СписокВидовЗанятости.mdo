@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="303f15e8-54f4-4046-8a11-17a224d2e3ce">
+  <producedTypes>
+    <managerType typeId="80e898f1-bc5b-4325-bca9-a55ae5e21074" valueTypeId="108c6480-16a1-4959-a510-3b7f66c9fd26"/>
+    <valueManagerType typeId="fa5d4bc1-de0f-42cb-830b-48765f96a1b7" valueTypeId="5a8e45cd-f02f-4d1f-ac2f-7a3cfed7c7c4"/>
+    <valueKeyType typeId="55071cec-f1c6-4e07-8b74-e1f8753d6290" valueTypeId="f1ebbea4-4525-44fc-89ea-41cdce168558"/>
+  </producedTypes>
+  <name>МК_СписокВидовЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список видов занятости</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

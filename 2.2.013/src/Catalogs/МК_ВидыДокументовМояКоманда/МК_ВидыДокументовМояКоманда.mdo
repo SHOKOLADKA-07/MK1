@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54e597f-5eec-438c-b52d-56a586c5b046">
+  <producedTypes>
+    <objectType typeId="4dbf7431-d468-42c4-84d2-1a1dd0fce31f" valueTypeId="a5d0ae02-8bf1-4c25-9ea5-c93c32850eee"/>
+    <refType typeId="ce681a80-d630-45d9-8175-de0688a6cc00" valueTypeId="0cc97e2a-4623-46d5-9bc9-8decb2c9c250"/>
+    <selectionType typeId="a64a45d5-9d93-49d0-808e-d6114c5ca5ab" valueTypeId="b41c8f09-5beb-4830-9d9d-da704df036de"/>
+    <listType typeId="3748b8a4-2976-40a2-9e4e-c2855cd2fc0b" valueTypeId="65207522-0c59-4f2c-9f01-8f5586ac023a"/>
+    <managerType typeId="f854f111-1d0d-49e6-b366-4bf0741b875f" valueTypeId="a185a745-0a2b-4c62-9466-7b6e8df1374e"/>
+  </producedTypes>
+  <name>МК_ВидыДокументовМояКоманда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов (МояКоманда)</value>
+  </synonym>
+  <comment>Копия справочника из облака</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_ВидыДокументовМояКоманда.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_ВидыДокументовМояКоманда.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.МК_ВидыДокументовМояКоманда.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="b26f4cf9-3a45-4a1d-836c-0d7a97a4199f">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a02e8d68-c004-4449-97bc-e87ac12b722c">
+    <name>КодМинтруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код минтруда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодыДокументовКадровыхМероприятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="53d3d3d5-8b48-44aa-a593-a48ef62cce08">
+    <name>Базовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3abb3252-f82e-4b7d-bf9f-aea6c192b1b0">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="06bdea97-7959-4cfb-87eb-25bc5f8616ea">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

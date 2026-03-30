@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27a7220-754c-464c-8c5f-cb07f6c677c3">
+  <producedTypes>
+    <managerType typeId="5f3f1b25-453d-4532-b5fe-3836ff5e20e1" valueTypeId="205cc6f4-7957-4108-a269-cee6077acfc6"/>
+    <valueManagerType typeId="6ff4c568-849e-475e-9cb7-92160a0a1397" valueTypeId="fd6e8fad-9549-46ba-873b-236b28169006"/>
+    <valueKeyType typeId="cb639cbe-795c-4de0-9061-4da8d42e256c" valueTypeId="251a9869-60fe-4521-848e-aab42b09c6a3"/>
+  </producedTypes>
+  <name>МК_ПрименятьПользовательскиеПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК применять пользовательские поля</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ccff34e-0f4b-4124-aad3-43fb09afd683">
+  <producedTypes>
+    <objectType typeId="1fbca6c1-68d1-45ad-b55b-9a6c6406253b" valueTypeId="d542a39e-a338-45de-836a-52476c0b6704"/>
+    <managerType typeId="73ddda5e-13d1-44e1-88e3-1924aeba37da" valueTypeId="92c73710-9a1f-4679-83fe-820bf2b00e19"/>
+  </producedTypes>
+  <name>МК_ВыгрузкаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МК_ВыгрузкаСотрудников.Form.Форма</defaultForm>
+  <forms uuid="6b097683-8ebd-43b0-a938-80a2055784aa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ba40eef0-fc50-4c64-b890-9b223a2bf9f7">
+    <name>ВыгрузкаСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных сотрудников</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

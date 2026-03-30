@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ab6973e-dfa8-4592-a6ca-a790cf2b8426">
+  <producedTypes>
+    <objectType typeId="c7ec2e62-0330-497c-98c8-e27a220efb9b" valueTypeId="3896a50e-b807-4c22-9ab0-d3ec92c6c13c"/>
+    <refType typeId="6167514f-3d5f-4df2-9299-1d0e9e86f438" valueTypeId="df8f787c-573c-4b9a-ac93-4b8f77269a48"/>
+    <selectionType typeId="1d6c1556-469d-477e-b961-02fdc0eed712" valueTypeId="ca29798e-f4dd-4f51-8c7a-c05f7033c177"/>
+    <listType typeId="27a5cda6-cbbe-4894-b086-ee2513f564d5" valueTypeId="9341354e-ee0a-460c-9011-c76005b8caf7"/>
+    <managerType typeId="4186e57a-bf9e-4627-84d2-5e0ef9b4bdbf" valueTypeId="33f63734-f00d-4c42-86a9-3009fd32aae9"/>
+  </producedTypes>
+  <name>МК_НастройкаКастомныхПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные данные для выгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_НастройкаКастомныхПолей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_НастройкаКастомныхПолей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.МК_НастройкаКастомныхПолей.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="37a497e5-6cc6-4124-a858-695a951d5816">
+    <name>Объект1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МК_ВыгружаемыеОбъекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="98fbc2e4-3cdf-4e4d-8ec2-1dfb29f7dd4f">
+    <name>ПолеМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле МК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4dbb2b54-bc78-42e5-8dd3-b26031d8d81a">
+    <name>Выгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4609bb81-08a6-4a81-a005-d4c4f742081a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

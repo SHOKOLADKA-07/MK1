@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="acdd04a8-4aa0-4daa-932f-f0dc93ff5251" extendedConfigurationObject="17d442bc-c41b-4c79-a923-b3ac3991d5b6">
+  <producedTypes>
+    <selectionType typeId="1e7314b8-3231-4710-8b35-d2bbc29054c5" valueTypeId="b0655fc1-57a2-488d-9af1-2145eb0072a5"/>
+    <listType typeId="cb2c8c89-f674-45ea-a87a-055cf2106dd7" valueTypeId="883e7e85-7589-4ef8-85a2-a0d1dbd6d38c"/>
+    <managerType typeId="d186f63d-2218-4be6-8bc5-974a6094591e" valueTypeId="24840301-66d0-4df1-a083-b65e5d0353c1"/>
+  </producedTypes>
+  <name>КадровыеДокументы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <registeredDocuments>Checked</registeredDocuments>
+  </extension>
+  <registeredDocuments>Document.ПриемНаРаботу</registeredDocuments>
+  <registeredDocuments>Document.ПриемНаРаботуСписком</registeredDocuments>
+  <registeredDocuments>Document.КадровыйПеревод</registeredDocuments>
+  <registeredDocuments>Document.Увольнение</registeredDocuments>
+  <registeredDocuments>Document.ОплатаПоСреднемуЗаработкуСписком</registeredDocuments>
+  <forms uuid="2f8493fc-0843-4603-bfe9-3d1dd0dec85f" extendedConfigurationObject="bca2f911-ce8e-4090-a740-9ad825e9d40a">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

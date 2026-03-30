@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a30d2df0-0fae-457b-9d1b-1b018927b2dd" extendedConfigurationObject="4d0ffa2f-48ac-4505-9acb-36f63318c2b6">
+  <producedTypes>
+    <objectType typeId="ee108ba9-11c5-4ee6-a171-d077dd199534" valueTypeId="c4488090-8ffc-4066-996f-673e4e35dcd1"/>
+    <refType typeId="ae9c3e36-dae3-4fe9-a6fe-664ba8fc3b18" valueTypeId="a1b1ab5d-7ef4-417b-bb35-c3c8c59aa382"/>
+    <selectionType typeId="af8bd59b-bedb-4b89-91fb-55c3422865f6" valueTypeId="d103ab6e-72f5-4e66-a250-8375a31d351d"/>
+    <listType typeId="5138a584-e57a-40c4-81a1-ba31aef016d3" valueTypeId="8c80a2f4-cf0e-4a89-ab15-1a52fcbe2c51"/>
+    <managerType typeId="ecc06aca-c8fa-4ff1-932a-01d401d0861c" valueTypeId="25f7c748-2969-43a1-a518-ba4c2e743ac0"/>
+  </producedTypes>
+  <name>КодыДокументовКадровыхМероприятий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

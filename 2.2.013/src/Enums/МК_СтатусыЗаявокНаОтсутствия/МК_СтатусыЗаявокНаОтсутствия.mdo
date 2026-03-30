@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b62a7b0e-dce1-4cc0-9915-573cf6c9c5d9">
+  <producedTypes>
+    <refType typeId="17452eca-8038-477b-869d-8741df2d6454" valueTypeId="dd6044c8-75d3-4e2b-9b8e-645cdef0c5d7"/>
+    <listType typeId="f0b08bdd-d01a-4626-a154-b7283234eb16" valueTypeId="9ba07ed6-4157-45a4-ba94-1e0e31682d60"/>
+    <managerType typeId="06dea7ea-ddfb-4a36-801e-1c831017573f" valueTypeId="b04c28a6-fa48-466c-9874-0fd1fe53e8ff"/>
+  </producedTypes>
+  <name>МК_СтатусыЗаявокНаОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК статусы заявок на отсутствия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="44798979-9cdb-4be2-98e2-cc6e09613b1a">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29228e30-f33e-4fe0-987f-f324a4616069">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ef3a9213-063c-45f1-9b82-4ec9dc5c0d28">
+    <name>Отклонена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53f12cb7-3864-432c-8160-3f0e0384b30b">
+    <name>Необработана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработана</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

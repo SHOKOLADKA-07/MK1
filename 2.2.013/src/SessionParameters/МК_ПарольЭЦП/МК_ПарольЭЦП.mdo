@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5c2b4e9-af6b-4d58-801c-24e06d2de890">
+  <name>МК_ПарольЭЦП</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК пароль ЭЦП</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>30</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

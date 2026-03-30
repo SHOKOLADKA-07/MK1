@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="408588b9-14f9-4133-bc8e-4d624ec7c28c" extendedConfigurationObject="86503fb2-6297-46ad-86ea-0b73f9a9dbef">
+  <producedTypes>
+    <selectionType typeId="f432a78a-7fee-4b2b-9ae5-7a88f047c1c4" valueTypeId="453d6d99-6c0a-4c09-951c-764b606ca24d"/>
+    <listType typeId="8daf51fd-7bda-4e0d-989b-d234fb3a6b9c" valueTypeId="1d5c9170-096c-4ceb-a0cd-ee557c4c59e8"/>
+    <managerType typeId="31c20b97-3723-4b64-b6c4-1111fe692b6e" valueTypeId="b259f28b-48cf-4bff-b671-c45f52fed1fd"/>
+  </producedTypes>
+  <name>Командировки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="232081f1-37fa-475e-ba54-aa3b8954387e" extendedConfigurationObject="8ebc0cde-280b-4cee-84b9-ca534a46f1d3">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

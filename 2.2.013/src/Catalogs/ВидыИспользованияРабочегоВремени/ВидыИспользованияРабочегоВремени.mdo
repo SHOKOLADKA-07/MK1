@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f1c1f8e3-3d57-4bdd-be3d-399fd0147c2c">
+  <producedTypes>
+    <objectType typeId="c67afce8-cc6d-4ed3-bafd-66e9f52b785d" valueTypeId="34ead165-fca2-4119-8dc7-59bbd6b96bc3"/>
+    <refType typeId="4fd2613a-a380-4353-8443-e16e60605325" valueTypeId="65efe572-2a7f-4d9f-bf61-a6da678a1a83"/>
+    <selectionType typeId="a67135e1-dcc1-4403-8f00-51744fb62b2b" valueTypeId="e4e07d97-3ace-4a19-9be3-e407a8e42033"/>
+    <listType typeId="ca2c0c15-a618-4dc9-bbbd-f5e9d7fc00be" valueTypeId="466a8bc4-0025-4572-b3f9-7de2b0e2c1ee"/>
+    <managerType typeId="70a9f07c-3c6a-4c90-9798-492511625740" valueTypeId="15246b48-aabc-4142-9738-7198e27dd14e"/>
+  </producedTypes>
+  <name>ВидыИспользованияРабочегоВремени</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

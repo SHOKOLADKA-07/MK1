@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0ace8a9-c5a7-47c9-baee-d695a5a8bbc2">
+  <producedTypes>
+    <objectType typeId="0b4610a4-8db7-4c63-a0a9-413604e5a7d8" valueTypeId="c752e32e-dde1-4004-a83e-8d3c5997aa19"/>
+    <refType typeId="abe68b9c-999a-4705-bd7c-0af67ac05193" valueTypeId="366be0aa-a6b2-4eaf-ac00-bfa2cb60b136"/>
+    <selectionType typeId="6d3a3793-9777-4862-891b-98fe351b95c8" valueTypeId="c8bbfd18-4459-4871-9313-bbdda8874d10"/>
+    <listType typeId="2d067602-db77-4377-ba16-50404bb5e663" valueTypeId="407cabea-fc21-475b-8c3a-163af7f9eb7d"/>
+    <managerType typeId="126dff1d-126f-42c3-b09b-5987d04cf746" valueTypeId="f52d9e5f-c909-4715-b283-f52d51382197"/>
+  </producedTypes>
+  <name>МК_СертификатыПодписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сертификаты УКЭП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_СертификатыПодписей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_СертификатыПодписей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МК_СертификатыПодписей.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="28c25269-10cc-4036-b322-eaf38e0a91a4">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b894c5b3-8901-4d29-a872-e6d1207edd47">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="31aade86-9ec0-464b-8296-a8496ee92693">
+    <name>СертификатЭЦП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сертификат ЭЦП</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c24a4433-41aa-42a1-be6d-bd25b3768098">
+    <name>МЧД</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЧД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8feef68d-f42d-4249-8226-e063448daaf3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

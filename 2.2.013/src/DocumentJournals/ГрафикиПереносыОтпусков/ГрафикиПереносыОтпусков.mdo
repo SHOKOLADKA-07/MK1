@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bc8fe629-96fe-4260-b5e2-1df8f5097e5f" extendedConfigurationObject="6baff715-7f76-46d1-b982-106fea4c1cd1">
+  <producedTypes>
+    <selectionType typeId="109590aa-6f01-4420-b987-0685943faa51" valueTypeId="68566d19-b284-4e8a-a491-f0d3c01f8b8e"/>
+    <listType typeId="4a9a122b-7a47-4a5e-be02-c54b3cd0f3e4" valueTypeId="79205145-8e23-432b-89c1-69f0f1a1dd11"/>
+    <managerType typeId="ec287358-0e38-40ff-bec8-046574ee7aeb" valueTypeId="c5c36781-1924-48aa-b263-6313c9b52293"/>
+  </producedTypes>
+  <name>ГрафикиПереносыОтпусков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="595e59e4-cca5-42e0-a312-6ad83e11b334" extendedConfigurationObject="6a29a179-1793-46e7-9e7d-6fce6dcf1eb4">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

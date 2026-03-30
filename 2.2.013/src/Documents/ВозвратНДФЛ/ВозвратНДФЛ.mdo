@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="187452a4-a765-405f-83f3-e3459f17042d" extendedConfigurationObject="712b5e48-c3f3-4df1-a1ea-290bc11c5f44">
+  <producedTypes>
+    <objectType typeId="121ff107-0535-4ed9-b3ae-e46779ef0ab7" valueTypeId="3c89b41c-b805-4355-a803-3f4565c9b9d5"/>
+    <refType typeId="9c0a0b30-1429-4ac2-9362-b5e14ff6d0a0" valueTypeId="1c080385-f6f6-4fc3-a568-9694f483040a"/>
+    <selectionType typeId="3d43bb50-19d4-4a0b-adc0-cc56a9c1ceba" valueTypeId="fa56aa34-6f5b-41f0-a91f-4b1f4eb203ef"/>
+    <listType typeId="5770a94e-464d-4017-9b71-ac559be87afd" valueTypeId="a4cba7e4-074c-49ad-b9c1-da78fe1bb61b"/>
+    <managerType typeId="1f2bf562-69f7-40e9-9fbd-8ca99b8d6907" valueTypeId="2ed903a6-380d-4c20-aaf3-de03427a18aa"/>
+  </producedTypes>
+  <name>ВозвратНДФЛ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

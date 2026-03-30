@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1216c46c-973c-43e6-b5d9-8f5e99ea226b">
+  <producedTypes>
+    <objectType typeId="b67a0c77-5653-4fb8-8b7e-b22ec293e6c0" valueTypeId="a78fd8fe-aff3-4e7a-a7b4-eafa27e5ed17"/>
+    <refType typeId="331ee4b5-2103-4f40-9d08-52ed6d9a73ec" valueTypeId="b6dafde7-8f6e-432f-be5f-fe2d5b7fdb3c"/>
+    <selectionType typeId="27f140f9-a455-482e-83e8-d9c31423f3f0" valueTypeId="5c247f2f-5c64-47f6-ac62-23feb1bc4e6d"/>
+    <listType typeId="12f08340-8031-4d61-858e-fec1025435a3" valueTypeId="3cab46db-7543-455f-bb73-152c21b7231a"/>
+    <managerType typeId="47af148a-30a9-4a63-b904-620744bed112" valueTypeId="2094ef37-7bd2-4397-a0ba-031cf1c4ed9b"/>
+  </producedTypes>
+  <name>Организации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="386ec48a-338c-41b4-8d55-170a8ad2213c">
+    <name>ИНН</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension/>
+    </extension>
+  </attributes>
+  <attributes uuid="0d1daaf0-37d3-4fff-9838-3c4ebd7c9d9d">
+    <name>НаименованиеСокращенное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension/>
+    </extension>
+  </attributes>
+  <attributes uuid="7c83d7fe-6260-49ac-9cec-ad7158c8d4ca">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension/>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

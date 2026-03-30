@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4bdc8af-3132-4143-a031-5f395e7113e5">
+  <name>МК_ФоноваяВыгрузкаСотрудниковПолная</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда_ФоноваяВыгрузкаСотрудниковПолная</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

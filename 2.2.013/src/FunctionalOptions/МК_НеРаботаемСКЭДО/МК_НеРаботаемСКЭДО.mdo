@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8640bb49-f0b9-44b7-a805-1e051127604e">
+  <name>МК_НеРаботаемСКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не работаем СКЭДО</value>
+  </synonym>
+  <comment>Антагонист опции &quot;РаботаемСКЭДО&quot;. Нужна для формирования меню приглашения к КЭДО</comment>
+  <location>Constant.МК_НеРаботаемСКЭДО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.МК_ПриглашениеККЭДО</content>
+</mdclass:FunctionalOption>

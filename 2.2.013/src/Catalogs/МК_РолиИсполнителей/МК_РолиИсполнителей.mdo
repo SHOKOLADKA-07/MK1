@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1e983bb-5843-488b-907c-5b0cf8c2e4ff">
+  <producedTypes>
+    <objectType typeId="35785040-7cfe-435a-a5e2-26a6835aab9d" valueTypeId="5bc93b70-a895-40b2-a87a-1d0c6c6fe25e"/>
+    <refType typeId="328b25e5-3029-4c6a-b81b-334f8b16da19" valueTypeId="ec17a59b-2e22-4e97-b2cb-81c89a0d7f77"/>
+    <selectionType typeId="d3b90319-c005-4613-af11-01cb4ec45776" valueTypeId="f7be42d4-335d-4c9a-bdb4-86180c8a9933"/>
+    <listType typeId="3c93d01b-47c2-4666-9027-a70eb9c53a3b" valueTypeId="b7293d32-6d62-483b-a298-08cba3b38792"/>
+    <managerType typeId="989c2646-ca42-43c5-810a-828987431bd4" valueTypeId="8a31dacf-4586-4258-9274-a8baaef4bc56"/>
+  </producedTypes>
+  <name>МК_РолиИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли и исполнители заявок из МК</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_РолиИсполнителей.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_РолиИсполнителей.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МК_РолиИсполнителей.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e2f51cd3-de3c-46c1-9907-0edd28eefd02">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2d3f6c2e-e74e-410e-be52-56e6604a62a7">
+    <producedTypes>
+      <objectType typeId="7b65c7b9-7ae8-46b3-9931-bd2f04c6af0c" valueTypeId="d8ab7753-201f-4561-bdff-beeafb21912d"/>
+      <rowType typeId="a575721e-8fb1-42c2-ab3e-1e00d06e5200" valueTypeId="73e347ae-729c-4248-a348-01b83a6641aa"/>
+    </producedTypes>
+    <name>Исполнители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнители</value>
+    </synonym>
+    <attributes uuid="6ff5da11-a5d9-4d8c-ace2-99da5c2674ca">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2e84df0e-8e3c-4c27-b1fd-e2cf7e5abe19">
+      <name>Организация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e9001ca5-e072-4b36-baaf-a7af38aba172">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

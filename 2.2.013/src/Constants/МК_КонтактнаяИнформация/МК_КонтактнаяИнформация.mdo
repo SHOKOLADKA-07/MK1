@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f04f808-dba9-405c-89ad-1deba5a78ff3">
+  <producedTypes>
+    <managerType typeId="d34933af-9fca-4ae2-937d-ff75c73ac0f6" valueTypeId="245d74c7-c3bc-4239-a924-31c8fd64c156"/>
+    <valueManagerType typeId="9ca10c32-d520-45cb-84f6-25586f82291d" valueTypeId="8deda13c-e217-433b-a2ee-0e23115c5784"/>
+    <valueKeyType typeId="b0b11569-e726-44f5-9891-68dde9674ade" valueTypeId="43a487bc-65d8-4e26-80c8-81757b81e09b"/>
+  </producedTypes>
+  <name>МК_КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

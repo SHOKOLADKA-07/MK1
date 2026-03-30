@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8eb2a708-21ed-43b9-9f13-31bf1bb9f499">
+  <name>МК_ВыгружатьПлановыеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК выгружать плановые начисления</value>
+  </synonym>
+  <location>Constant.МК_ВыгружатьПлановыеНачисления</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений</content>
+</mdclass:FunctionalOption>

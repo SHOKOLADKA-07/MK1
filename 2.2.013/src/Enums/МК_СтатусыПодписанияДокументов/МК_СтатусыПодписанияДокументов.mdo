@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e9de42-20c8-4927-a949-d5031fc84a40">
+  <producedTypes>
+    <refType typeId="3e3af661-c4c9-41ca-ad4d-8b0ca4abbd1b" valueTypeId="cd765c59-bca1-43de-ac1f-3ecf27b433c8"/>
+    <listType typeId="ef85cb32-20aa-4c9f-bc16-29cc8350f7b8" valueTypeId="51dba880-816c-42dc-8a80-bd321c179c99"/>
+    <managerType typeId="dd817c50-0303-4019-8849-fa808a83b45c" valueTypeId="5016cd6e-c247-4bb3-a14a-31aa6130b280"/>
+  </producedTypes>
+  <name>МК_СтатусыПодписанияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>М к статусы подписания документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fd02c9cd-f846-42ee-adc6-4101301f1802">
+    <name>НаПодписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На подписании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="139ebb34-e379-4392-814c-4008e268f64d">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c019c7e5-b122-478d-b508-cf0bab7409f7">
+    <name>Подписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d5694a2-5b59-4434-8c32-2668bf7fa7e6">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7046cabb-6549-4908-9fd4-2353cdeb75d2" extendedConfigurationObject="d01d1d89-25d6-49f7-a9e5-45046b72c1db">
+  <producedTypes>
+    <selectionType typeId="7df821de-798d-400a-aecd-46c57fa6a435" valueTypeId="5e1e1cc5-a54c-45c1-bc19-8069d3975b99"/>
+    <listType typeId="862a304f-e233-4288-a3c7-a339b132bd08" valueTypeId="94876ded-4005-462f-a618-e0d6e0668f62"/>
+    <managerType typeId="1737dffc-0a60-4f14-ba9a-d812b436a368" valueTypeId="d18cba1b-c299-44b1-9ff1-23d9b584d9fb"/>
+  </producedTypes>
+  <name>ОтпускаПоУходуЗаРебенком</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentJournalExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="9430e027-47b2-4316-be1a-f15f0aa47abe" extendedConfigurationObject="bc100437-365c-4832-9ab5-dc9db4c70cbc">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DocumentJournal>

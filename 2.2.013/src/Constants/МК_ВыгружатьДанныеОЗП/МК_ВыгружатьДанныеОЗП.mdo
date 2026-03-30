@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fc703ae-e86c-43ce-b217-5f85d788246d">
+  <producedTypes>
+    <managerType typeId="8127e0cd-9ec7-4576-a0bb-da14dc098a52" valueTypeId="78d52a3a-b982-4e56-9953-6bfdf028c1b9"/>
+    <valueManagerType typeId="0129bb7d-238e-41fc-9291-1ee9149cefdd" valueTypeId="2b51e948-877d-43c6-9517-643381a26744"/>
+    <valueKeyType typeId="cc7a3d21-8297-4331-bb45-52d538a8418c" valueTypeId="9c604b32-4a7b-4f03-b1e1-b57b1dcae0bb"/>
+  </producedTypes>
+  <name>МК_ВыгружатьДанныеОЗП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгружать данные ОЗП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

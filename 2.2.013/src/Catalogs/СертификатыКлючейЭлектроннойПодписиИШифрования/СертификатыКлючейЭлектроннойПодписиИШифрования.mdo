@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d9319404-2cc9-43f9-a7dd-41092e885a3d" extendedConfigurationObject="81d900be-ddc1-417f-ae2c-1aacf040de9a">
+  <producedTypes>
+    <objectType typeId="6ee3af9d-5cbe-47ae-9894-f635a6abb377" valueTypeId="fd49c740-570f-495e-8a04-d792cfad3b3e"/>
+    <refType typeId="a29a988c-2f2d-4f2c-9989-640dba2b8dc4" valueTypeId="e6713754-a028-40c1-ba65-95f531183af8"/>
+    <selectionType typeId="22caaaeb-eda8-4cde-ae54-ee8a303d0d85" valueTypeId="ef160e8b-ffb5-4b03-b0ff-f9d85a0ce418"/>
+    <listType typeId="a316a089-76c6-42b1-a4bb-7d2a47513dca" valueTypeId="557b5638-2098-4fe6-a375-b7dee478d560"/>
+    <managerType typeId="55e6ceec-aeb8-4e66-97e0-1023de25329d" valueTypeId="1fa76fc0-49b4-4d1e-a4a5-03820c8a4a18"/>
+  </producedTypes>
+  <name>СертификатыКлючейЭлектроннойПодписиИШифрования</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

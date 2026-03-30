@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66b30f7d-6c86-40eb-8544-9d33f83ba2e2">
+  <producedTypes>
+    <managerType typeId="b59d3bc1-852c-4186-872c-4f4f685f8c9c" valueTypeId="505a2fd8-0ee2-40a5-9105-9ed7385d64d3"/>
+    <valueManagerType typeId="8e28f5d3-fcae-4874-9a27-d7c6f59f2cec" valueTypeId="7b673f63-133d-43c5-a79c-2ea46effbde2"/>
+    <valueKeyType typeId="180122cb-d189-47f8-b0b2-d168530c37dd" valueTypeId="14329e1d-b620-49af-ab4a-35cc2f880ac2"/>
+  </producedTypes>
+  <name>МК_ВыгружатьРЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгружать РЛ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

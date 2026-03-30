@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4d489c34-e839-4e8f-8939-14fab69c06f0" extendedConfigurationObject="a04a8750-5fde-4593-a744-782d8a66294f">
+  <producedTypes>
+    <objectType typeId="5fda9e21-4ca1-4aa9-9ba9-7e58aaf6bca5" valueTypeId="15b109a9-ead3-49b7-87c1-2b9661d3b7f7"/>
+    <refType typeId="ffd86ff5-2ad0-4b5e-947a-6cb4d396691f" valueTypeId="1c2b37c0-c481-4f47-92de-b0835bc238da"/>
+    <selectionType typeId="0289e126-6fdf-4985-801d-f7edf562f75e" valueTypeId="7e8b9f7d-345b-471a-aade-0c5aeeb6f38d"/>
+    <listType typeId="1fee62cc-1bde-4d39-aa2c-ee108d884dfb" valueTypeId="3d713d28-c9dc-4f3f-b8b4-0165ee8b6839"/>
+    <managerType typeId="ab50f0f4-d552-4cb9-abb5-3e05df520199" valueTypeId="7875c745-54d3-40c9-8c90-ba23009f3435"/>
+  </producedTypes>
+  <name>ОтпускБезСохраненияОплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="497ed573-10b2-46ab-a0fd-10c9f38f8641" extendedConfigurationObject="ae96db4e-d7ca-452b-a944-5659b82a114d">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

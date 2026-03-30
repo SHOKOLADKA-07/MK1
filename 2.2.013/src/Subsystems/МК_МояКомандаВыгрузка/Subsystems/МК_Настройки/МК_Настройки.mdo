@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9922109-f608-466f-ae5c-a3a9280f9237">
+  <name>МК_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки  обмена</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.МК_Сервер</content>
+  <content>Constant.МК_Логин</content>
+  <content>Constant.МК_Пароль</content>
+  <content>DataProcessor.МК_НастройкаВыгрузки</content>
+  <content>Role.МК_ОсновнаяРоль</content>
+  <content>DataProcessor.МК_НастройкаРегламентныхЗаданий</content>
+  <content>FunctionalOption.МК_НеФреш</content>
+  <content>FunctionalOption.МК_ПрименятьПользовательскиеПоля</content>
+  <content>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений</content>
+  <content>Catalog.МК_НастройкаКастомныхПолей</content>
+  <content>Catalog.МК_СоответствиеОтсутствий</content>
+  <content>Catalog.МК_РолиИсполнителей</content>
+  <content>FunctionalOption.МК_ВыгружатьПлановыеНачисления</content>
+  <content>Enum.МК_ОбрабатываемыеВидыДокументовПоЗаявлениям</content>
+  <content>Catalog.МК_НастройкиСвязиЗаявленийКЭДО</content>
+  <parentSubsystem>Subsystem.МК_МояКомандаВыгрузка</parentSubsystem>
+</mdclass:Subsystem>

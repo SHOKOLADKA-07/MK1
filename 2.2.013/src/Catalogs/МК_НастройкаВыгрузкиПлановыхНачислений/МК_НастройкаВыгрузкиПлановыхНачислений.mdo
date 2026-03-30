@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="563fd41c-eecd-49f7-a9cc-dda3ead42f58">
+  <producedTypes>
+    <objectType typeId="6b3f7bd5-55e4-442f-bd95-cb0b38037b05" valueTypeId="407fef46-660c-4bcf-a4b0-f8521271e721"/>
+    <refType typeId="9f2285ef-870d-4c62-80ec-f5d9641131f5" valueTypeId="0283bbee-2b5f-4fe5-bc56-d2635ae32c28"/>
+    <selectionType typeId="02a418e9-00d7-47be-a2e4-11786c5c6d3c" valueTypeId="f2d17363-7e07-4bbe-bb22-9624f2949f39"/>
+    <listType typeId="141fa8c2-6592-4c96-a151-883bd4dfa5c0" valueTypeId="1b806330-3d19-45c3-bb79-76ae62efa027"/>
+    <managerType typeId="0458b381-0f19-46de-af3f-20fa4ad61d85" valueTypeId="198833ed-f347-4798-b4b1-7e4c7c0f40de"/>
+  </producedTypes>
+  <name>МК_НастройкаВыгрузкиПлановыхНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка выгрузки плановых начислений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="32267567-788b-4e37-bc79-a7e93def0853">
+    <name>Выгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2595c288-0ae2-4735-961c-4a1f21f704df">
+    <name>РеквизитМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит МК</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44bacc2c-d2da-4c39-8b71-92f852e1a8ab">
+    <name>ВидНачисления1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления 1С</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.Начисления</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e14de90e-e897-43eb-bef1-7093d1c8497d">
+    <name>ЧтоВыгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Что выгружать</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МК_ВидыВыгрузки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9577cc4-3c3a-48e0-9f45-f63eac88cf0c">
+    <name>Показатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПоказателиРасчетаЗарплаты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9b135fd0-2c2f-461b-8110-db1cf8fa70a7">
+    <name>Стандарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандарт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2c50ba14-7f2f-4f8f-a1fe-1410b9fad6ee">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3396331d-d5f4-448b-97d8-0c10287564e5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

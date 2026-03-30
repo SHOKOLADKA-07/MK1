@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d26b7337-41cd-47aa-b665-6eaccfa6539f">
+  <name>МК_ПолучениеЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда: получение заявок</value>
+  </synonym>
+  <methodName>CommonModule.МК_ПолучениеЗаявок.ВыполнитьКоманду</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

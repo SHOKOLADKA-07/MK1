@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18d10f66-ffb7-46b7-9ab8-7008a8ff7da8">
+  <name>МК_Логотип</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК логотип</value>
+  </synonym>
+</mdclass:CommonPicture>

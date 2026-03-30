@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="220fa212-eb7f-4407-a5c0-b016fb370035">
+  <producedTypes>
+    <objectType typeId="70d886f1-93cc-4ce4-a244-f3d8839b9a4e" valueTypeId="3a69d529-6361-4268-9569-b4fefadf0f2c"/>
+    <managerType typeId="c0e37269-1c7a-4cc6-989e-b1d7433542b0" valueTypeId="39baca73-fe40-4227-9dec-315401d43de7"/>
+  </producedTypes>
+  <name>МК_ОтправкаДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка документа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МК_ОтправкаДокумента.Form.ОтправкаДокумента</defaultForm>
+  <forms uuid="8f44bab7-4922-4c2e-9a19-fb745a830152">
+    <name>ОтправкаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e47bafa-a79b-488d-ac82-216aee638f29">
+    <name>МК_ПодписаниеЭЦП</name>
+    <synonym>
+      <key>ru</key>
+      <value>М к подписание ЭЦП</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dc40679a-bdce-41eb-928c-73e847535252">
+    <name>МК_РедакторТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>МК редактор табличного документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

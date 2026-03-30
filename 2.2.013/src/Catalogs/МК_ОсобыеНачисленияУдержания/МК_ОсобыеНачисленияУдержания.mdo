@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7363eb5f-8e66-43c6-8b94-c5c4a9e76774">
+  <producedTypes>
+    <objectType typeId="aef81e12-c514-4d68-b092-af2c44c965b1" valueTypeId="55e3b569-74fa-4b51-896a-def74c87fd07"/>
+    <refType typeId="5e70e30a-51f2-4689-9523-9378c47639b7" valueTypeId="4c3ef0ce-e30b-4a71-9ffb-b1655c0c4523"/>
+    <selectionType typeId="dd4012e3-9131-41c9-8ca8-c442335d5ee0" valueTypeId="2c84dec4-cbb2-4987-8220-0af0d28172cc"/>
+    <listType typeId="3553b2da-8f0f-4b65-bd04-bfade213ac18" valueTypeId="263e8c62-c88c-4768-ae8e-f56b9e6cb740"/>
+    <managerType typeId="fe259de1-ef7a-4083-a48f-86489bbccd24" valueTypeId="d46f4505-26f9-491d-90ad-00725dedae6d"/>
+  </producedTypes>
+  <name>МК_ОсобыеНачисленияУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Особые начисления удержания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_ОсобыеНачисленияУдержания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_ОсобыеНачисленияУдержания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>70</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="49343b35-0e08-4a96-8751-73a52890d9ff">
+    <name>ВидЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид записи</value>
+    </synonym>
+    <comment>1 - начисление, 2 - удержание</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="da31d2a2-a786-4db5-be50-73d28a2414df">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОсобыхНачисленийИУдержаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

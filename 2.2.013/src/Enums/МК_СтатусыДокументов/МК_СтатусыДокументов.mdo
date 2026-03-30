@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="190a9766-a916-455f-b50d-4581ecbe4794">
+  <producedTypes>
+    <refType typeId="05a2e4a1-479c-49df-a88a-8b3b0fc8f1e8" valueTypeId="7edcfd7c-2462-46fc-9249-5f17d5d84017"/>
+    <listType typeId="7835b560-cc03-4d9a-b2d3-ce55b1a45148" valueTypeId="948d8fec-050e-4d90-98ff-46f291ba62b0"/>
+    <managerType typeId="76a285d0-a250-4098-83fb-d0c432cae345" valueTypeId="b1e77f19-20e1-4317-8a11-c62f5a191abb"/>
+  </producedTypes>
+  <name>МК_СтатусыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК статусы документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e3e1372-8eca-4974-a474-51bc0a4f2d25">
+    <name>С1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27de58f2-a9e8-4eec-bd01-fd989088ba79">
+    <name>С2</name>
+    <synonym>
+      <key>ru</key>
+      <value>На подписании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dca98db9-bdec-4955-9a5c-e476085ac843">
+    <name>С3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7f60d45-23f5-4b8a-a9d9-a5a01750903a">
+    <name>С4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e475a41-b00a-412d-b59b-bac459f0be7c">
+    <name>С5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="57396982-6c2e-45c0-a9ea-e24824b6c42a">
+    <name>С6</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

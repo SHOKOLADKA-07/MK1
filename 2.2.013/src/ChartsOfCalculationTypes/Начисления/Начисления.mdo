@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6f8a5451-dbeb-458e-a0dc-50dc63f11bdf" extendedConfigurationObject="be08c831-b5a8-4e28-b13c-26875635a7f1">
+  <producedTypes>
+    <objectType typeId="359fda81-0078-4992-98c2-c8c13729ceb0" valueTypeId="b16a06b5-f9dc-431c-a726-2d148cfd487a"/>
+    <refType typeId="2d4ad0d3-5f64-4d6f-9114-20c7fd422317" valueTypeId="c2137fce-8f83-42a3-b5e0-b8aa60456fab"/>
+    <selectionType typeId="ba77313a-dc33-4e4d-b279-98da932bcd08" valueTypeId="4578d804-e1b4-432e-864c-1b97916a47c1"/>
+    <listType typeId="cae81d0c-b3dc-4a7d-bde3-c55e645cf64b" valueTypeId="2cd6d007-472d-4a16-b230-d7edaf56d460"/>
+    <managerType typeId="5b702084-7cbe-4145-b2d5-d7a98ed422f5" valueTypeId="700a6257-be2e-4297-9eaa-56393115b96b"/>
+    <displacingCalculationTypesType typeId="f2bdea55-a456-490e-8ef1-60d7cebb197d" valueTypeId="b993c7be-c65c-46be-bb09-817087322eba"/>
+    <displacingCalculationTypesRowType typeId="4a050ccb-0541-497d-b639-84d4fbd7ab37" valueTypeId="70df57bf-55a7-4dac-b819-cb406fc5377c"/>
+    <baseCalculationTypesType typeId="d7c52eb5-4868-4b3a-ad08-fc46d7482dac" valueTypeId="0b38633e-50f6-4c86-8c81-ad6bea0a27b8"/>
+    <baseCalculationTypesRowType typeId="7c7e5569-5907-420a-a43d-069cdb861363" valueTypeId="81252717-43e4-4539-b65d-c766f0152416"/>
+    <leadingCalculationTypesType typeId="afd9bb7a-1c0b-47cc-8ab8-215285f7230b" valueTypeId="5a9750b4-227d-4336-b119-c70c5d695db3"/>
+    <leadingCalculationTypesRowType typeId="951373bb-bd36-40c7-aed3-1485a5ef3354" valueTypeId="6f09d5c3-55b5-49ed-8a4f-8cfee860d4c2"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCalculationTypesExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:ChartOfCalculationTypes>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4047a1e8-6c42-4a57-92ed-eb359584fafb">
+  <producedTypes>
+    <objectType typeId="5f46f03c-fb85-42ff-809a-e39395e023f4" valueTypeId="56003882-a827-4e04-bcb1-9dc4d30cd97d"/>
+    <refType typeId="8d1852cb-7818-469b-951b-83bb594c455e" valueTypeId="481ae70b-defb-4361-8637-f7cf7df36090"/>
+    <selectionType typeId="4bf6cb1f-05a8-4545-b1bf-46457ccacb41" valueTypeId="e054259a-c5d8-4238-a1fa-da97e8ba1eaa"/>
+    <listType typeId="a1a0fbdb-e5da-424d-8bbf-d2c253a7c751" valueTypeId="285e2d8a-645e-41dd-af0e-82223bde2cef"/>
+    <managerType typeId="a819e1e7-a12f-4392-a68d-5047eb665ff1" valueTypeId="3a9bfac0-c335-4ddb-aaab-0c643010a6f7"/>
+  </producedTypes>
+  <name>МК_ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатные формы (1С)</value>
+  </synonym>
+  <comment>Справочник видов электронных документов (связь со справочником МК)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_ВидыДокументов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_ВидыДокументов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.МК_ВидыДокументов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="461eb4a2-4dd6-4f58-897d-48ce2814722c">
+    <name>ТипОбъектаМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ed00b7a-1369-42e6-b58e-0d90940328cb">
+    <name>ИдентификаторПечатнойФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор печатной формы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a3098bb8-5ad8-4bd0-9e9a-42be7fe44567">
+    <name>КодВМояКоманда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код в МояКоманда</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c159d0d-6650-402f-b12e-4dfd5e1f782d">
+    <name>МаршрутПодписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут подписания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МК_МаршрутыПодписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a1d8de12-78c0-4fcd-a647-045fdb0eb07a">
+    <name>КодМинтруда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код минтруда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодыДокументовКадровыхМероприятий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="823a1cdd-ef1d-4d27-a845-3871c780d075">
+    <name>Базовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33e4130d-0921-498d-9fdb-e4699d1b2f35">
+    <name>Списочный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списочный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="550a6b95-5c67-436f-8240-1f69780c7c9e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59ceecba-90fb-4dbf-98ff-76b8d82c5402">
+  <producedTypes>
+    <refType typeId="3833e390-b71c-443b-9fc9-be8b0753783c" valueTypeId="e0ba1e0e-26ea-4173-a2a6-2ec550eb9321"/>
+    <listType typeId="129ae34e-44a0-407b-8aab-f783daddcb34" valueTypeId="d104a010-be67-4d1e-b138-8b998a526d01"/>
+    <managerType typeId="d4701ed7-1674-4ca6-af56-7c269b6aac1b" valueTypeId="1f14f13e-f054-42b3-b9c3-726cddd15a4c"/>
+  </producedTypes>
+  <name>МК_МаршрутыПодписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты подписания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7ee7fc4c-6a99-40b3-b83a-47d1470304ce">
+    <name>М1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="652d89aa-a275-43a1-afa2-1b713913b4d5">
+    <name>М2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сначала сотрудник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43e3ec12-6c8b-49e8-a698-3421e65530da">
+    <name>М3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abc99d5d-d1b1-4bff-b8a2-adcaff682193">
+    <name>М4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только сотрудник</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

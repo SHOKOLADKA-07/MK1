@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5426a26-ef15-42c9-bd79-f3cd54f6222e">
+  <name>МК_ПолучениеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда получение документов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="683e7782-87b8-49bc-947c-acc055e8a82b">
+  <producedTypes>
+    <managerType typeId="149eabce-a58a-401e-b037-34865a4f68b8" valueTypeId="55a60c38-4ffb-4389-9b37-4cc78f5c91a4"/>
+    <valueManagerType typeId="8755f9b5-2750-4615-b823-e65cc4634b03" valueTypeId="26c934bf-1969-4c5c-9246-af35b8e96ec4"/>
+    <valueKeyType typeId="d0802823-100f-4110-92cb-c6ed385b7ce5" valueTypeId="e7c55a59-48ea-4c4a-aada-aabf776d10be"/>
+  </producedTypes>
+  <name>МК_МаксКолвоСотрВВыгрузке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Макс колво сотр в выгрузке</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

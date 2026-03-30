@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69c2c1bf-b3e2-4e14-bdd1-ae62ab1ecd58">
+  <producedTypes>
+    <managerType typeId="89b49980-52a1-4550-9ad0-4827b91cf26e" valueTypeId="dd4e31cd-71ef-4c29-a602-8e0561267545"/>
+    <valueManagerType typeId="28d7dcf2-2de0-4276-b087-6599c5b1a4f4" valueTypeId="4b4a1e5e-1434-4f54-b28b-dc5167b2616d"/>
+    <valueKeyType typeId="18621723-4a00-48ba-8232-423ed5d06652" valueTypeId="0029f532-2a7d-4d7d-bd12-25bc06f4f213"/>
+  </producedTypes>
+  <name>МК_РаботаемСКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работаем с КЭДО</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

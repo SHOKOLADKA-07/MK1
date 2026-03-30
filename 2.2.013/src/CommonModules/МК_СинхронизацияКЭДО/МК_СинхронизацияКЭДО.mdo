@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b718d88-a960-4ce3-a7cd-ee607b655858">
+  <name>МК_СинхронизацияКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда Синхронизация КЭДО</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

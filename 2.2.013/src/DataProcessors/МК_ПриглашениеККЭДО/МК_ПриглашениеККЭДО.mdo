@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0cf7d073-6f03-4ef2-8baf-cbca4407064d">
+  <producedTypes>
+    <objectType typeId="3f8cab03-62a1-4e0e-b61d-86b59869dfec" valueTypeId="0713ddc3-b1ff-43ed-bd53-03e8ac726c5f"/>
+    <managerType typeId="cc36b215-3fb6-4539-ba80-66eca8660b0f" valueTypeId="60eafc6d-7c13-4c23-a44a-c6e2641011ea"/>
+  </producedTypes>
+  <name>МК_ПриглашениеККЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединиться к КЭДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МК_ПриглашениеККЭДО.Form.ФормаПриглашенияККЭДО</defaultForm>
+  <forms uuid="e85e14f6-dfb4-473c-a00b-45e6810ac74b">
+    <name>ФормаПриглашенияККЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма приглашения ККЭДО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f57e345a-1141-45aa-a33c-931a77a1cb09">
+    <name>МК_ПриглашениеККЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключиться к КЭДО</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

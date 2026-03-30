@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a9699fc-09cf-459c-b4d6-8d47dca936e4">
+  <producedTypes>
+    <managerType typeId="6ca19ce1-e1cd-4107-a212-1028d9f935ab" valueTypeId="322638dd-0452-4c72-a8c7-8572d9a32498"/>
+    <valueManagerType typeId="721ac61b-121c-40a6-bd65-d74775b0116d" valueTypeId="6a14fd66-c751-4723-a367-49393e7b5ba9"/>
+    <valueKeyType typeId="a63e7642-6876-49fe-8f32-15402266221b" valueTypeId="047b3c98-8585-45fc-a5be-b407e4ae2da9"/>
+  </producedTypes>
+  <name>МК_ВыгружатьПлановыеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК выгружать плановые начисления</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

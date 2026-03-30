@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af137dc4-4b83-4e7b-801e-e4331d949c0b">
+  <producedTypes>
+    <refType typeId="f6132f7b-ba90-4996-92f0-5321fc18c140" valueTypeId="a3f64ce2-d6ca-4796-9b27-663979f423e1"/>
+    <listType typeId="dab1678e-247d-4344-8242-4b1f8eae4e39" valueTypeId="8d48579e-834d-44b9-bb56-b98c862d4d3b"/>
+    <managerType typeId="d4ccf4b6-466b-44f3-aa51-e1db725e88ea" valueTypeId="0714d0b5-5d78-4b38-9b45-36bd86081bd0"/>
+  </producedTypes>
+  <name>МК_СтатусыПодписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы подписания МояКоманда</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12b93653-814a-4a80-8cc4-f9f48040d0ab">
+    <name>НаПодписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На подписании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="567441e9-b346-47b8-86d9-e620ebdd4e61">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b555061-f855-4273-9af3-69b61dd9e47c">
+    <name>Просрочен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b67ddc1b-b131-4b39-9fae-666544bca88c">
+    <name>Подписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32df05de-932f-4be6-a832-9a2cc3c99c89">
+    <name>Согласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64f72450-3e70-43b8-9b71-c3a201a595f2">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ec2dfad-a251-4f9d-9312-e9aa851c93bb">
+    <name>ВОжидании</name>
+    <synonym>
+      <key>ru</key>
+      <value>В ожидании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d2d14d5-b8c0-4b43-a645-4151fa5ee8d1">
+    <name>НаИсполнении</name>
+    <synonym>
+      <key>ru</key>
+      <value>На исполнении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="652e1fd0-4c39-4d3f-a406-5f9632f596c9">
+    <name>Исполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

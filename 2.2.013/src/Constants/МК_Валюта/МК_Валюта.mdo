@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4773854a-a04f-4833-a5de-f95be2919631">
+  <producedTypes>
+    <managerType typeId="70ef39ac-6e95-45f3-b7ec-e2c5ebb25d76" valueTypeId="232ae307-4834-42c1-ad6d-4a35f49b1108"/>
+    <valueManagerType typeId="11a26f0b-9700-49a2-8546-640d0d29e2c7" valueTypeId="4c67df66-99c4-4cea-b29c-528b1e0a8fb2"/>
+    <valueKeyType typeId="26db82d4-514c-4b44-b540-ba369ccce93e" valueTypeId="b343f58f-8b33-4a56-853b-0e998333e8f7"/>
+  </producedTypes>
+  <name>МК_Валюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК валюта</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>30</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

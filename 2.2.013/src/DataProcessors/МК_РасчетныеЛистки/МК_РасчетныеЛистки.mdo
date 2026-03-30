@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d27fb0dd-611c-40bf-afa0-a634e11aa27b">
+  <producedTypes>
+    <objectType typeId="4b40926d-7ac0-40a5-af72-16772de7c12a" valueTypeId="ae4848fb-4622-46a4-baac-948f1d8a33f1"/>
+    <managerType typeId="35cedbb6-a41d-4f35-bf13-24b57ac372ff" valueTypeId="0661a4e9-4d9e-478a-86f9-755d3bcaec16"/>
+  </producedTypes>
+  <name>МК_РасчетныеЛистки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные о заработной плате</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МК_РасчетныеЛистки.Form.ФормаВыгрузкиРЛ</defaultForm>
+  <forms uuid="fc9b919b-b743-460f-8ac4-2274aa98ed95">
+    <name>ФормаВыгрузкиРЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выгрузки РЛ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="d371c2f4-0ced-4478-8d7e-b13d80c93336">
+    <name>РасчетныеЛистки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка зарплатных данных</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

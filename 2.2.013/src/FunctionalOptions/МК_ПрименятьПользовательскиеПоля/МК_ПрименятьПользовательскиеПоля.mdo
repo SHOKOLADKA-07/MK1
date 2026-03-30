@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe3aeb31-86d3-4ed3-a177-217b04e5d6ff">
+  <name>МК_ПрименятьПользовательскиеПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК применять пользовательские поля</value>
+  </synonym>
+  <location>Constant.МК_ПрименятьПользовательскиеПоля</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.МК_НастройкаКастомныхПолей</content>
+</mdclass:FunctionalOption>

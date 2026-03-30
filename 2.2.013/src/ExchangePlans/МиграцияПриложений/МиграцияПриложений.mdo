@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="55725699-5e73-4a65-9453-6a98698e4a26" extendedConfigurationObject="b5c14196-5850-49a2-8f8a-1153f5f81e31" thisNode="02865b8f-bb5a-4715-9190-ff8c0cacbd1e">
+  <producedTypes>
+    <objectType typeId="c4289f81-cff7-4650-ac9e-edba0cd21e5e" valueTypeId="4f4837fa-24c4-4fd2-9dcb-ed9f6e50d148"/>
+    <refType typeId="c6145dc3-7332-48e5-8696-34b2ce1171bf" valueTypeId="a532065d-883a-4682-a333-29ffe85a0a69"/>
+    <selectionType typeId="562d9dc6-46cb-4b43-8430-6dcba1b47825" valueTypeId="f6799a16-1fe9-40d4-ae7c-260ca1966896"/>
+    <listType typeId="52386798-3a83-4af0-a26b-79f349168c46" valueTypeId="13f33fa8-d9ae-40fb-bb82-968b14633c02"/>
+    <managerType typeId="22e82dc9-069d-41fe-8071-d292aae96c31" valueTypeId="f7f456b1-1577-4602-b4d1-dc70a6e2d3cb"/>
+  </producedTypes>
+  <name>МиграцияПриложений</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <content>Extended</content>
+  </extension>
+  <content>
+    <mdObject>Constant.МК_ДокументФЛ2</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьПлановыеНачисления</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_НастройкаКастомныхПолей</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_СотрудникиКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВалютаСправочник</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгрузкаОтпусковДниДоТекущейДаты</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_НеФреш</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ДокументФЛ3</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ДокументыКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_СписокВидовЗанятости</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ИспользоватьРуководителейПодразделений</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ВидыДокументов</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_Валюта</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.СоздаватьЭлектронныеПодписиНаСервере</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_КонтактнаяИнформация</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_НеРаботаемСКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_НастройкаВыгрузкиПлановыхНачислений</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_НастройкиСвязиЗаявленийКЭДО</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьДанныеОЗП</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьРЛ</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_МаксКолвоСотрВВыгрузке</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_РаботаемСКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_СоответствиеОтсутствий</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ДокументФЛ1</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_СписокОрганизаций</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ОсобыеНачисленияУдержания</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьГПХ</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ЗаявкиНаОтсутствие</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ОтключитьКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>InformationRegister.МК_СостояниеДокументовКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>InformationRegister.МК_МоиЗадания</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьОстаткиОтпусков</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ПереопределяемыеРеквизиты</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_СписокПодразделенийСтруктура</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_Пароль</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьОргСтруктуру</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВыгружатьДокументыОтпусков</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_Логин</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ВидыДействия</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_СертификатыПодписей</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_УчитываемыеФильтры</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_СписокДолжностей</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_СписокСотрудников</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_РолиИсполнителей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ВыгружаемыеОбъекты</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_ПрименятьПользовательскиеПоля</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>InformationRegister.МК_СотрудникиКЭДО</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_Сервер</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ЗаявленияСотрудников</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.МК_СписокПодразделений</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_НастройкиВыгрузкиИнформации</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Catalog.МК_ВидыДокументовМояКоманда</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+  <content>
+    <mdObject>Constant.МК_КаталогДляВыгрузкиФайлов</mdObject>
+    <extension xsi:type="mdclassExtension:ExchangePlanContentItemExtension">
+      <mdObject>Checked</mdObject>
+    </extension>
+  </content>
+</mdclass:ExchangePlan>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b6400ee-b9c8-4b79-b997-27fee26e6f45">
+  <producedTypes>
+    <objectType typeId="88269ed8-ef59-463b-b8de-937092256c42" valueTypeId="6122a153-8a62-40eb-9f3f-f77301f3c711"/>
+    <refType typeId="eb2f5dc2-768d-4ebf-8576-0e681baa2d8c" valueTypeId="381bddde-4c08-43c9-9ae0-1857a7d6a119"/>
+    <selectionType typeId="24f39f47-36a0-40a6-8dbb-b873cb241f8f" valueTypeId="bd4db67c-e62c-4a0c-8c72-85df27283a2d"/>
+    <listType typeId="ecfb82e6-2a2f-41ee-9173-b9c26021649c" valueTypeId="e1a15484-f13b-4c9b-a04c-85f02bafc7f2"/>
+    <managerType typeId="b2ec8cd7-07a0-4991-a79b-5a47138e0217" valueTypeId="3d9257be-fa82-46dd-af04-0d09a8bad496"/>
+  </producedTypes>
+  <name>МК_СоответствиеОтсутствий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка параметров отсутствий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МК_СоответствиеОтсутствий.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МК_СоответствиеОтсутствий.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="1d268a96-d879-4717-96c8-83ef079f6708">
+      <name>БольничныйЛист</name>
+      <description>Больничный лист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="a8b05d47-4951-4ab5-873f-b6f1636e5c5f">
+      <name>Командировка</name>
+      <description>Командировка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="5d90650c-9b94-4ab9-95c0-43ef47918e22">
+      <name>ОплатаДнейУходаЗаДетьмиИнвалидами</name>
+      <description>Оплата дней ухода за детьми инвалидами</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="2aaff447-f119-4e5f-8b4c-e069271354f9">
+      <name>Отгул</name>
+      <description>Отгул</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="a603734c-baa1-4580-b22c-312b3f4d48a3">
+      <name>ОтпускПоБеременностиИРодам</name>
+      <description>Отпуск по беременности и родам</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="35d0936b-502c-44dd-9a74-ee7344f1ae29">
+      <name>ОтпускПоУходуЗаРебенком</name>
+      <description>Отпуск по уходу за ребенком</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="e8dcfc3e-853a-4623-9e86-c6601934cec8">
+      <name>ПрогулНеявка</name>
+      <description>Прогул, неявка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МК_СоответствиеОтсутствий.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.МК_СоответствиеОтсутствий.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="40e19a54-2684-458f-bb80-9d9b44ca3a11">
+    <name>КодИзМК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор поля (МояКоманда)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f16e43a-3f7c-4d0a-b4c3-561ffb627c45">
+    <name>Объект1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отсутствия (1С)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.ВидыОтпусков</types>
+      <stringQualifiers>
+        <length>40</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ea639947-85db-46a3-92b1-d8d52d0d3a9a">
+    <name>Выгружать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e0965b13-91f8-44f0-9ca8-577906473749">
+    <name>Целосменный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Целосменный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e786123-2b55-49c5-a3cc-99b45ed27bbb">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МК_РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0bf2a895-40f1-494d-84b1-f3e879e609f2">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="05cfc41d-43ba-4867-a767-a0ef260fba13">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

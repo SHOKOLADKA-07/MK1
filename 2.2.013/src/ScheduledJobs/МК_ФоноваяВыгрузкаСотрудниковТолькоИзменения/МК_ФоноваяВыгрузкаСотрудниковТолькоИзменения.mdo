@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f7b1cce-b6e0-4dd9-b158-319c0feb8ae4">
+  <name>МК_ФоноваяВыгрузкаСотрудниковТолькоИзменения</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда: фоновая выгрузка сотрудников только изменения</value>
+  </synonym>
+  <methodName>CommonModule.МК_ФоноваяВырузкаСотрудниковТолькоИзменения.ВыполнитьКоманду</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51f226a5-afe2-413f-92bf-832bce29354a">
+  <producedTypes>
+    <managerType typeId="45129ed6-9c80-4cd4-9edf-c62f316b51a3" valueTypeId="6292a08e-d9e3-46a1-909c-ac7477ebdf70"/>
+    <valueManagerType typeId="e6235b2c-50e6-4d57-bdeb-050236d053fb" valueTypeId="21522f45-f6c5-4632-9dc4-4e5e42191e59"/>
+    <valueKeyType typeId="82bccc4b-2513-41bb-92e3-6f50f0cc87e7" valueTypeId="3033995b-5ecd-4fc4-bdba-0e0ee3d69893"/>
+  </producedTypes>
+  <name>МК_НеРаботаемСКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не работаем СКЭДО</value>
+  </synonym>
+  <comment>Нужна для соответствующей функциональной опции.</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e29bef4d-009e-4768-878b-f21d4f302e49">
+  <producedTypes>
+    <refType typeId="9667864c-f0d5-44ad-a0f0-ddc47459c4b1" valueTypeId="11513e41-9ff9-44ab-8ac2-82e45f419ee9"/>
+    <listType typeId="cc34a215-ac2a-461b-b5b0-549f9b136557" valueTypeId="16ef1484-b0f5-42c4-a052-3b7706208a20"/>
+    <managerType typeId="c6703ffe-71f1-45fd-814c-d606314257aa" valueTypeId="2d313451-f8e7-4501-b33e-8ac25b252388"/>
+  </producedTypes>
+  <name>МК_ВидыВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК виды выгрузки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="56d2b9a0-b298-43b9-9b34-e6def9ee1af4">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fa35fa7f-f444-447d-98c9-c76c90fee11b">
+    <name>ПоказательРасчетаЗарплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель расчета зарплаты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b28a555a-8275-430e-a809-b7bbac5b9742">
+  <producedTypes>
+    <managerType typeId="f67eeb1f-08f9-4e81-a584-9f2227c904be" valueTypeId="1ea185da-59c4-402a-9e33-49d83f8bbaa7"/>
+    <valueManagerType typeId="e58ac1d8-1326-45c1-9955-3f5b35aa1ab8" valueTypeId="1d302dff-18b0-4de5-90bd-d144a214c5f1"/>
+    <valueKeyType typeId="d9f08891-4a73-4014-a62b-62c41014f827" valueTypeId="739c4a61-a817-4dbd-8a8e-b3d8cf000329"/>
+  </producedTypes>
+  <name>МК_ВыгружатьОргСтруктуру</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК выгружать организационную структуру</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

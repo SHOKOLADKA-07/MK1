@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="191b4fb9-d55b-427c-8702-c35d69cf8b27">
+  <producedTypes>
+    <managerType typeId="2ffc2675-152f-41db-86b4-b66ad2abde06" valueTypeId="e3370ce6-2b49-46e0-962f-69924606c1ce"/>
+    <valueManagerType typeId="7f681187-eff3-4361-a185-ab3cd1aff690" valueTypeId="5e5443e8-c397-4eec-afbd-05408a9cc3f3"/>
+    <valueKeyType typeId="4b26ae91-fb4c-4141-a08f-1a54fdd27edc" valueTypeId="fdfc76af-0a69-43f5-bb6b-ec17b6c8e5d3"/>
+  </producedTypes>
+  <name>МК_ВыгрузкаОтпусковДниДоТекущейДаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка отпусков: дни до текущей даты</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

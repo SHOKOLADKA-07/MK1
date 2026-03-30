@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="213538ec-df4b-47ef-8916-fb527f656d5b">
+  <producedTypes>
+    <refType typeId="1ed01037-006f-4f23-ad24-119a55c363b6" valueTypeId="c568eb4a-5d21-4b01-a317-50082a46fad8"/>
+    <listType typeId="724c313a-5dfa-44d4-9049-d3f3fc7043cf" valueTypeId="f4bc66ac-da9f-4ada-a3a0-9c15aea83178"/>
+    <managerType typeId="fc406ef2-7212-466e-a681-f4c095e95266" valueTypeId="d87bd196-b52f-4113-899f-d7585f681073"/>
+  </producedTypes>
+  <name>МК_СтатусыЗаявлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявлений МояКоманда</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8ec1ccbb-ecd0-4967-b433-80ab1a6bc8ff">
+    <name>НаПодписании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На подписании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3baa609-5e2e-49f0-8dc7-0f9d4d21f368">
+    <name>Просрочен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="007d39fb-9a21-421f-8bba-1fe2c624496b">
+    <name>Выполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94380fc0-1f38-4140-9066-7c562de4c444">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80d496dd-cdd6-459b-8264-a4faad9d1a23">
+    <name>Недействителен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e92b4aa2-e519-4f9a-9855-b3466776aa7c">
+    <name>НаИсполнении</name>
+    <synonym>
+      <key>ru</key>
+      <value>На исполнении</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

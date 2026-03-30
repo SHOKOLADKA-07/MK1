@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64eb2455-d909-4f33-b08a-99654b34021f">
+  <producedTypes>
+    <objectType typeId="19debaec-92f9-44e6-a609-de1fef29e225" valueTypeId="0f1236db-78e1-4a3d-bfa7-874ba5be7f4c"/>
+    <managerType typeId="83d2a967-7998-434f-902d-379aeb54af6b" valueTypeId="a250f9d2-bc1f-4f1b-b151-7888886fdb4b"/>
+  </producedTypes>
+  <name>МК_НастройкаВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка параметров обмена</value>
+  </synonym>
+  <defaultForm>DataProcessor.МК_НастройкаВыгрузки.Form.МК_ФормаОсновныхНастроек</defaultForm>
+  <forms uuid="af54a549-ca77-4224-bc69-319a50d6bdf2">
+    <name>МК_ФормаОсновныхНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма основных настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="00850422-dd92-417b-8689-e0d88d4cc0a2">
+    <name>МК_ФормаВыбораОрганизаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора организаций</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a7c4360d-b5ed-40f6-b35e-ef5776cb3b31">
+    <name>МК_ФормаВыбораДолжностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора должностей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9ce9489-3bf2-4068-b494-c3d99aa5d040">
+    <name>МК_ФормаВыбораСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора сотрудников</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65c03617-0d1c-48b5-8792-7857a4ff68da">
+    <name>МК_ФормаВыбораПодразделений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора подразделений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="142e22a0-2bf5-4665-916c-2eb0e70a1eaf">
+    <name>МК_ФормаВыбораВидовЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора видов занятости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65e0b55e-f857-4da0-8217-d214d49bec7b">
+    <name>МК_ФормаДопНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма доп. настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="692986ef-c351-4c3f-925e-7b7a85fb41b6">
+    <name>МК_ФормаВыбораСтруктуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора структуры</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="06257cd6-3e9d-4e48-af3e-76d21dafcd38">
+    <name>НастройкиВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка параметров обмена</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

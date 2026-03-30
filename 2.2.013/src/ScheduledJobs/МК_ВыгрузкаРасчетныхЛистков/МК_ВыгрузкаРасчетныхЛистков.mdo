@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5a2e288-ced2-43a1-963c-c66e3a9d9e05">
+  <name>МК_ВыгрузкаРасчетныхЛистков</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда: выгрузка расчетных листков</value>
+  </synonym>
+  <methodName>CommonModule.МК_ФоноваяВыгрузкаРасчетныхЛистков.ВыполнитьКоманду</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

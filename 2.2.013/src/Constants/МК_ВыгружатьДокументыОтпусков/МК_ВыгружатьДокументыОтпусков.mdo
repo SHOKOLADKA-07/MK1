@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b44eb97f-fad2-4883-95ca-9ba0d165187f">
+  <producedTypes>
+    <managerType typeId="4d25031b-199b-49a8-bcaf-6ee8a50b44cb" valueTypeId="35926f2b-25eb-4ce4-84aa-418197f62978"/>
+    <valueManagerType typeId="430d68a4-c74f-45ee-ae36-5d0eb473aac0" valueTypeId="8c37790e-0cf5-4d20-852b-35b89eec5a52"/>
+    <valueKeyType typeId="91e6fe36-49e0-41fd-806c-9f43ee2e7c22" valueTypeId="589d1c74-7d8b-4f68-b334-dda277b4fc01"/>
+  </producedTypes>
+  <name>МК_ВыгружатьДокументыОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгружать документы отпусков</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

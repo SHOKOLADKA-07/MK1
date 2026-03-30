@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60358d11-8125-4818-bad3-c0a29c8af77e">
+  <producedTypes>
+    <objectType typeId="7e34285e-765b-4775-a8af-bb2d098622eb" valueTypeId="19f5ffd6-6de3-4d6e-b1fa-88fe85ca17bf"/>
+    <managerType typeId="ddf617d6-5381-4860-aca1-2318442a79d0" valueTypeId="12b4ee58-8003-461a-a04c-b79625676128"/>
+  </producedTypes>
+  <name>МК_ОстаткиОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об отпусках</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МК_ОстаткиОтпусков.Form.Форма</defaultForm>
+  <forms uuid="86691893-c219-4c34-8172-d6f73d06c43f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5e0c7c36-998f-4afb-aa35-2b699983db05">
+    <name>ОстаткиОтпусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка данных об отпусках</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

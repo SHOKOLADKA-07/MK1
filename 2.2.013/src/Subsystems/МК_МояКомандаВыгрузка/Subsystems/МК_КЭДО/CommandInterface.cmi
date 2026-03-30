@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.МК_ПриглашениеККЭДО.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.МК_ЗаявленияСотрудников.StandardCommand.OpenList</commands>
+      <commands>Catalog.МК_ДокументыКЭДО.StandardCommand.OpenList</commands>
+      <commands>Catalog.МК_ВидыДокументовМояКоманда.StandardCommand.OpenList</commands>
+      <commands>Catalog.МК_ВидыДокументов.StandardCommand.OpenList</commands>
+      <commands>Catalog.МК_СертификатыПодписей.StandardCommand.OpenList</commands>
+      <commands>DataProcessor.МК_ПриглашениеККЭДО.Command.МК_ПриглашениеККЭДО</commands>
+      <commands>Catalog.МК_СотрудникиКЭДО.StandardCommand.OpenList</commands>
+      <commands>0:c3977bb2-1587-4e44-bb09-4a57b1ae97c9</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

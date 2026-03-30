@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41dbcdc0-3997-4886-be03-10e220a999fc">
+  <producedTypes>
+    <refType typeId="ab152f5b-2558-4a6a-8b67-02badd030e40" valueTypeId="f3bccedd-efb0-497f-addd-ac812faac8be"/>
+    <listType typeId="ca513e2e-835d-4135-8867-fc3d6c1738fb" valueTypeId="421699df-d70c-4a4f-a76f-e2d737bec932"/>
+    <managerType typeId="e607a523-9b86-4125-8386-057ac673c561" valueTypeId="c6e40841-172c-4598-b24e-06ef2a6fb142"/>
+  </producedTypes>
+  <name>МК_ДействияСЗаявлениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия с заявлениями</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd5394ac-49b0-4678-9088-7d577ebad898">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый (не определен)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ea245bfc-e578-4ab2-9921-98cfcbecb359">
+    <name>Получать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получать заявления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de871323-9f49-412c-8d91-4e9bc7f7c775">
+    <name>НеПолучать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не получать заявления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

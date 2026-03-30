@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DataProcessor.МК_НастройкаВыгрузки.Command.НастройкиВыгрузки</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>DataProcessor.МК_НастройкаРегламентныхЗаданий.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.МК_НастройкаВыгрузки.Command.НастройкиВыгрузки</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>DataProcessor.МК_НастройкаВыгрузки.Command.НастройкиВыгрузки</commands>
+      <commands>DataProcessor.МК_НастройкаРегламентныхЗаданий.Command.НастройкаРегЗаданий</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

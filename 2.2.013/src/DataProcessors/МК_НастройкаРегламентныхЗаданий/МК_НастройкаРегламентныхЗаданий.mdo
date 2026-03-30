@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45cc261b-7ff2-4467-84f9-ec0d2d4c0f86">
+  <producedTypes>
+    <objectType typeId="d32dd3dc-10e4-48e0-9642-65723f8f4433" valueTypeId="cd2a23e9-3061-4391-a7e1-9ef11e4aa229"/>
+    <managerType typeId="d6f4837e-b314-41f2-8441-7a8ee85a4a27" valueTypeId="c08f8d13-f598-40df-a810-a968c05c811c"/>
+  </producedTypes>
+  <name>МК_НастройкаРегламентныхЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка обмена по расписанию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МК_НастройкаРегламентныхЗаданий.Form.МК_НастройкаРегЗаданий</defaultForm>
+  <forms uuid="d7c02d51-59ae-4762-b6f4-f6b827bf98cb">
+    <name>МК_НастройкаРегЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка регламентных заданий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="22f58718-20c4-4701-928d-4c2efe06b4ad">
+    <name>НастройкаРегЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка обмена по расписанию</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

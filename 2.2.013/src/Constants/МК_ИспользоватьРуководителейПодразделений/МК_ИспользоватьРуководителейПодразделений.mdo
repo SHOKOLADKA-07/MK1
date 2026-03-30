@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="366c81f5-66c2-4b21-a84d-9040c83cd3bc">
+  <producedTypes>
+    <managerType typeId="80c12aa1-b598-473a-9902-1003607f0aa3" valueTypeId="28eea72a-5baf-44f2-954b-a4d5406e5874"/>
+    <valueManagerType typeId="0edd1d86-4f4e-4d5e-b77a-a8b317d9f060" valueTypeId="a1714c33-04fd-4f31-83db-30266c4c924f"/>
+    <valueKeyType typeId="bc21d82d-ac6b-475b-a6a0-4060cac6cd63" valueTypeId="42cf3ad6-5e30-4a8f-be6e-28431fe233d2"/>
+  </producedTypes>
+  <name>МК_ИспользоватьРуководителейПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>М к использовать руководителей подразделений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a82d9894-c838-4f63-a306-4fb98e833f1f">
+  <producedTypes>
+    <managerType typeId="c159ad88-0e8c-4e51-bdea-3a2f01bd249b" valueTypeId="39e20851-0415-4e3c-9f72-855aa4771b08"/>
+    <valueManagerType typeId="e0752445-6b7d-4467-9ecc-0e30940d9e77" valueTypeId="b8be6f49-886b-4ed9-ad37-41472479a37b"/>
+    <valueKeyType typeId="053df624-e9ea-4dee-a5d6-302fdb809190" valueTypeId="dbe61bcf-d95c-40f2-aa7b-0a0bc83bbae7"/>
+  </producedTypes>
+  <name>МК_ПереопределяемыеРеквизиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переопределяемые реквизиты</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

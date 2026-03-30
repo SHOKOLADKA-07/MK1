@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6b5f0d6-7537-4339-a20d-58c017b66cc5">
+  <name>МК_МояКомандаВыгрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда </value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.МК_Логотип</picture>
+  </picture>
+  <content>Role.МК_ОсновнаяРоль</content>
+  <content>CommonPicture.МК_ОбщаяКартинка1</content>
+  <content>CommonModule.МК_ФоноваяВырузкаСотрудниковТолькоИзменения</content>
+  <content>CommonModule.МК_ФоноваяВыгрузкаОстатковОтпусков</content>
+  <content>CommonModule.МК_ФоноваяВыгрузкаСотрудниковПолная</content>
+  <content>CommonModule.МК_ФоноваяВыгрузкаРасчетныхЛистков</content>
+  <content>FunctionalOption.МК_РаботаемСКЭДО</content>
+  <content>FunctionalOption.МК_НеРаботаемСКЭДО</content>
+  <subsystems>МК_Настройки</subsystems>
+  <subsystems>МК_Действия</subsystems>
+  <subsystems>МК_КЭДО</subsystems>
+</mdclass:Subsystem>

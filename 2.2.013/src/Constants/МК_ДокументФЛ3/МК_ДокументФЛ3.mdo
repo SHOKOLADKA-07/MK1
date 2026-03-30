@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="260415fe-17d4-407f-aeec-d5ec0544bd08">
+  <producedTypes>
+    <managerType typeId="af767014-c472-47d2-b284-36f872f219b7" valueTypeId="ae1642be-b8a2-42ac-ba41-0196edb5777c"/>
+    <valueManagerType typeId="b128b972-cb34-42a9-82f7-50910aef4ddb" valueTypeId="2ac56fdb-1413-4bbb-9f94-5fbecf74855d"/>
+    <valueKeyType typeId="ca6732bc-40af-4d7c-9b22-fe632523a8c6" valueTypeId="eb62392f-5705-49af-8a28-b2168f246fa3"/>
+  </producedTypes>
+  <name>МК_ДокументФЛ3</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК документ ФЛ3</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВидыДокументовФизическихЛиц</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

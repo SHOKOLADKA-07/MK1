@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9ad0c8b-bcef-43be-9cc1-c9843b2808a4">
+  <producedTypes>
+    <managerType typeId="12632c27-9de6-42cd-a180-a6024d740508" valueTypeId="99c814d2-4bd7-4bad-bd03-a9cca210ba71"/>
+    <valueManagerType typeId="48248c90-5cc6-4e8f-8a31-98bfa29103a6" valueTypeId="a099f9f7-8db3-4620-a4e2-4f83865510c4"/>
+    <valueKeyType typeId="1c7cfbcc-b7b2-40c3-9d4e-b37a62f56cdc" valueTypeId="068e9a32-df17-460a-8068-1e6f42278a19"/>
+  </producedTypes>
+  <name>МК_СписокСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список сотрудников</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

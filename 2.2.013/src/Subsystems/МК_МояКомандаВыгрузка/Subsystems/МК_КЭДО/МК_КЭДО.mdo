@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7121ede2-33cf-494d-99d7-53b37f502765">
+  <name>МК_КЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>КЭДО МояКоманда</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.МК_ВидыДокументов</content>
+  <content>Catalog.МК_ВидыДокументовМояКоманда</content>
+  <content>Catalog.МК_СертификатыПодписей</content>
+  <content>Catalog.МК_ДокументыКЭДО</content>
+  <content>DataProcessor.МК_ПриглашениеККЭДО</content>
+  <content>Catalog.МК_СотрудникиКЭДО</content>
+  <content>CommonPicture.МК_КоллекцияСостоянийКЭДО</content>
+  <content>SessionParameter.МК_ПарольЭЦП</content>
+  <content>Catalog.МК_ЗаявленияСотрудников</content>
+  <content>c3977bb2-1587-4e44-bb09-4a57b1ae97c9</content>
+  <content>FunctionalOption.МК_РаботаемСКЭДО</content>
+  <parentSubsystem>Subsystem.МК_МояКомандаВыгрузка</parentSubsystem>
+</mdclass:Subsystem>

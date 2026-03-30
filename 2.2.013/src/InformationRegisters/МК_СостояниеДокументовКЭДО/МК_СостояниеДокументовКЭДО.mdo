@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="972b4f69-0e78-45b5-956d-096a17e20bf2">
+  <producedTypes>
+    <selectionType typeId="2f1b83a7-07be-4353-983f-9ae4b06051e2" valueTypeId="dc4c51bf-39ea-4e2c-b8a7-4498256c2d4f"/>
+    <listType typeId="5050bb34-84d3-4994-9b70-fa12fd8700b7" valueTypeId="3a7d97ff-34d0-44f1-afcc-93a0a6826b67"/>
+    <managerType typeId="66b03e69-48f9-4e38-af8a-e3262c3b31da" valueTypeId="302fc510-b1c2-4285-bba8-7a7dec65dfad"/>
+    <recordSetType typeId="10dbff12-000b-4e27-a4a9-9a136cfcc61d" valueTypeId="18ceddc2-ff3d-432c-8fc8-67d0ed818c4a"/>
+    <recordKeyType typeId="21dd8aa4-f7b5-4728-8539-eac2fa436f3a" valueTypeId="c93b44ab-3e6a-4784-a598-02764177878d"/>
+    <recordType typeId="2b050953-1447-40ab-af85-597d573ecf67" valueTypeId="2bd49ebe-17e2-45f3-becc-7a0d2d236e52"/>
+    <recordManagerType typeId="d0cc71c1-cebf-4c50-87d5-3af52e0dec93" valueTypeId="a23f4600-80ff-4b06-90c9-d3a45e543aed"/>
+  </producedTypes>
+  <name>МК_СостояниеДокументовКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние документов КЭДО</value>
+  </synonym>
+  <comment>Регистр содержит ссылку на действующщую запись справочника Документы КЭДО</comment>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a26e3a8c-9876-4777-8c9a-2aa2126a72b6">
+    <name>СсылкаНаПриказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на приказ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МК_ДокументыКЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c0ad87a6-982e-4983-a6a1-0d2d3ca2690f">
+    <name>СсылкаНаДоговор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МК_ДокументыКЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="093703cc-a6e6-46d4-8cf6-932411b0bde5">
+    <name>СтатусПриказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус приказа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="3de9b546-66ce-446e-a47b-1a6bf128ab0b">
+    <name>СтатусДоговора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус договора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="d7f132e2-8aa7-4649-9a53-a1dc03a0b0f3">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="87ace9bb-8711-4858-ac3b-9116543fec9e">
+    <name>КодСтатуса1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код статуса1</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="028626ff-5d91-4b47-b95c-18efbf703c41">
+    <name>КодСтатуса2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код статуса2</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5ceb4389-e385-45a1-93ac-dc7f96c859d0">
+    <name>СсылкаНаДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

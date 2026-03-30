@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a956ca4-b3dd-4a17-b999-4c2f35b3c031">
+  <name>МК_Действия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен данными</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.МК_ОсновнаяРоль</content>
+  <content>CommonPicture.МК_ОбщаяКартинка1</content>
+  <content>Constant.МК_Сервер</content>
+  <content>Constant.МК_Логин</content>
+  <content>Constant.МК_Пароль</content>
+  <content>DataProcessor.МК_ВыгрузкаСотрудников</content>
+  <content>DataProcessor.МК_РасчетныеЛистки</content>
+  <content>DataProcessor.МК_ОстаткиОтпусков</content>
+  <content>Catalog.МК_ЗаявкиНаОтсутствие</content>
+  <content>InformationRegister.МК_МоиЗадания</content>
+  <parentSubsystem>Subsystem.МК_МояКомандаВыгрузка</parentSubsystem>
+</mdclass:Subsystem>

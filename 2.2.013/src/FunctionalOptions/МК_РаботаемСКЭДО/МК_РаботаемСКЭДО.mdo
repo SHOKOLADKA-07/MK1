@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a65e984d-a89e-4f65-90d6-a0452773a5eb">
+  <name>МК_РаботаемСКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работаем СКЭДО</value>
+  </synonym>
+  <location>Constant.МК_РаботаемСКЭДО</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.МК_ДокументыКЭДО</content>
+  <content>Catalog.МК_ВидыДокументов</content>
+  <content>Catalog.МК_ВидыДокументовМояКоманда</content>
+  <content>Catalog.МК_СертификатыПодписей</content>
+  <content>Catalog.МК_СотрудникиКЭДО</content>
+  <content>Catalog.МК_НастройкиСвязиЗаявленийКЭДО</content>
+  <content>Catalog.МК_ЗаявленияСотрудников</content>
+</mdclass:FunctionalOption>

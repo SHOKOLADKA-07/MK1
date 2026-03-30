@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bea5f618-cda1-43c1-9d42-3fb79a889760">
+  <producedTypes>
+    <managerType typeId="0f85084d-a2ab-4b86-bad5-0b869de85763" valueTypeId="b623451b-fbd3-4c2d-9f9b-dba49416b6fc"/>
+    <valueManagerType typeId="4020dfab-4e08-471d-9734-642c6d3d24fa" valueTypeId="2263e1ec-7657-4cad-a722-225049767ad5"/>
+    <valueKeyType typeId="59bb2f8b-2286-456a-bbb8-fa036638c48b" valueTypeId="80c950b8-961f-400e-90de-c4d4d6decff9"/>
+  </producedTypes>
+  <name>МК_ВидыДействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды действия</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>14</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="49d2ad83-6138-489e-b5e2-d05563fd713c" extendedConfigurationObject="aef659d6-bf3c-4c70-ae9e-af146c01cf76">
+  <producedTypes>
+    <objectType typeId="29b28922-0096-484e-904e-7d3df8c6b5c2" valueTypeId="e3befd16-ac13-4c96-9e39-801cd6968bc6"/>
+    <refType typeId="093bd6bd-73e2-4e94-b90b-2ee71b66a9ee" valueTypeId="f7f18793-8cca-4905-81ea-e73eb6f24db3"/>
+    <selectionType typeId="07f6114a-1021-49e0-8531-150d81ebab38" valueTypeId="7276fbf9-95d5-4062-a56e-d16852a8dbdc"/>
+    <listType typeId="42dface7-f3c2-4434-8dc7-5b4f428af02f" valueTypeId="7c158928-7d0a-4435-9cc3-2d49bedec2b5"/>
+    <managerType typeId="56dfd555-9bc3-471b-a362-ecdef2bd3435" valueTypeId="ec99d8d6-b50f-4199-8c9e-04eda83a41b8"/>
+  </producedTypes>
+  <name>Увольнение</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="75a99f68-8a9d-428f-9a29-03ef542ad37b" extendedConfigurationObject="a6fd31c0-90fc-4ead-850c-5b52e1b5d884">
+    <name>УвольнениеСОсновногоМестаРаботы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="2d92dab7-948c-43b6-aa18-4006414bad73" extendedConfigurationObject="39bb51f6-0395-41e4-9f47-352e4a07084b">
+    <name>ПредоставлятьМероприятияТДВЭлектроннойФорме</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

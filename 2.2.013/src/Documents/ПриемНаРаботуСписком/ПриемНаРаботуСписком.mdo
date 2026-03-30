@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b39e744-4f1c-464c-8e64-922918c4bc76" extendedConfigurationObject="315311c7-7040-49b4-8572-7f668f6587f4">
+  <producedTypes>
+    <objectType typeId="218c3f4f-abaa-43fc-83eb-5f926f612fe6" valueTypeId="5e06ea18-0838-4ed3-b5b1-59297c06e1ac"/>
+    <refType typeId="a167bf47-ef38-40b0-ac41-22e13f1d939f" valueTypeId="fdcf0cb0-9ba8-42dc-b8e5-dbb340183fa5"/>
+    <selectionType typeId="b658e1cc-b27e-4463-8b57-091823f5c627" valueTypeId="a794a5a2-4b39-4cbc-9080-d4eb435cf7ed"/>
+    <listType typeId="88d953cb-1f85-4e83-8a2e-22f86ce82fe5" valueTypeId="1fe3bc83-1208-431b-87a0-5d8917f0b7d5"/>
+    <managerType typeId="93bad7a2-6f2a-4072-8ac1-310cf9c2c509" valueTypeId="d96f1126-0c8b-4f55-a059-63b07164ae8d"/>
+  </producedTypes>
+  <name>ПриемНаРаботуСписком</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

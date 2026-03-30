@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40b11412-96d1-4af8-afb8-bdfe193f5ad9">
+  <name>МК_НеФреш</name>
+  <synonym>
+    <key>ru</key>
+    <value>М к не фреш</value>
+  </synonym>
+  <location>Constant.МК_НеФреш</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.МК_НастройкаРегламентныхЗаданий</content>
+</mdclass:FunctionalOption>

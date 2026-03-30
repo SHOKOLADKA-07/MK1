@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e612bd79-e13d-4775-8e14-20899bbf0c66">
+  <producedTypes>
+    <selectionType typeId="c7e1225a-9c13-40a5-99ea-f56a21842c70" valueTypeId="2c470f20-31c4-4d73-b0a5-3851db06ec52"/>
+    <listType typeId="08f78a9e-bf54-438e-8f73-a88d37b2c5fc" valueTypeId="f85675d8-9de9-4748-b94a-89302afff1fd"/>
+    <managerType typeId="9273b31f-efbb-491c-9474-00cb8a71d2ed" valueTypeId="848af573-dace-4fea-b91b-0cb64f08759d"/>
+    <recordSetType typeId="dc3b706f-9ac7-44e0-8870-9e929c9207d9" valueTypeId="3f713f83-297e-42e0-afb7-4e00296889f3"/>
+    <recordKeyType typeId="3746de37-f91c-4d78-965b-4fcee93515a8" valueTypeId="b4aea376-f8a0-4809-9e63-3e4ea5f5658d"/>
+    <recordType typeId="a2a640fe-3c7b-4f2d-a75b-1d7eb491e10a" valueTypeId="b633b207-6eb3-4af4-8681-661f5d0c7bcb"/>
+    <recordManagerType typeId="a4908177-493c-41b4-9c6b-8d1c0e991f4a" valueTypeId="3214d41b-1900-4dcf-aded-2b40776c197f"/>
+  </producedTypes>
+  <name>МК_СотрудникиКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники КЭДО</value>
+  </synonym>
+  <comment>Нужен для связи с динамическим списком в кадровых документах</comment>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba4dc1d8-9f76-4cf9-9ed9-8b6ffa4190b7">
+    <name>ЕстьСогласие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть согласие</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="17697b7f-9926-4886-a56c-16b2e00157ac">
+    <name>ФизическоеЛицоСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="99fb9220-6b3b-4d4f-ad0e-2f7d99de7c1c">
+    <name>СотрудникСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

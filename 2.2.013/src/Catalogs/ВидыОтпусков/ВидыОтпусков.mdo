@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="526ba051-78f1-4e06-8d85-1c61772d0ade">
+  <producedTypes>
+    <objectType typeId="facb8ab1-1a35-4c22-bd1b-fda7ae18d251" valueTypeId="6d1fb97a-f881-4752-a5c7-eb680a6851e0"/>
+    <refType typeId="accee5fc-c661-4f58-805a-efff59b7c462" valueTypeId="0b269ba8-1e40-4cac-8466-5f27228222a6"/>
+    <selectionType typeId="4a973ac0-e599-4919-8189-ff4a61608813" valueTypeId="a9fba365-ff59-4119-a9a8-2386aeeb8582"/>
+    <listType typeId="2ff43596-856f-4310-ac5b-cea405cc2869" valueTypeId="a6caaf8b-2797-423d-b063-e15576b697d6"/>
+    <managerType typeId="80cc969e-83ce-4ceb-b15c-0043047155f9" valueTypeId="ec31742d-2d27-4f21-8b19-03da4e284ed4"/>
+  </producedTypes>
+  <name>ВидыОтпусков</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

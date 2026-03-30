@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ef07cbd-7aee-4daa-b07e-ec8e1c22c9d7">
+  <producedTypes>
+    <managerType typeId="e9de9552-1944-4c0b-9cb8-ca95c88476eb" valueTypeId="d7c84f2f-971d-4332-9808-e9fa3ff3cfeb"/>
+    <valueManagerType typeId="633f272c-ed87-4742-bde3-f4ad4c3e0ba0" valueTypeId="aedca291-311e-4827-89ba-747d2a662c2e"/>
+    <valueKeyType typeId="8d54bec6-e926-48fd-871a-1d571a764582" valueTypeId="333e66e3-fa56-4a5f-abd7-9bafc60fff07"/>
+  </producedTypes>
+  <name>МК_ОтключитьКЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК отключить КЭДО</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

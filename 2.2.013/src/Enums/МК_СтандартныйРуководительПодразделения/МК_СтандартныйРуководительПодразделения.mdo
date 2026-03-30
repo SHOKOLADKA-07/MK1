@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7294c221-8c53-4109-b862-04f05ada6576">
+  <producedTypes>
+    <refType typeId="a27d4af5-8072-40cd-9186-23cb0c5c09da" valueTypeId="2c6eb25f-bb61-4b19-936b-81650e40c3df"/>
+    <listType typeId="9f884ae2-7445-41c6-b3e1-9c3379171295" valueTypeId="99f86705-af8a-4e31-ba9c-d9980b06a057"/>
+    <managerType typeId="acbeb35f-7af2-405c-96c5-4fc78240cdc5" valueTypeId="de771e79-e586-4665-a2b5-b428e5f4672d"/>
+  </producedTypes>
+  <name>МК_СтандартныйРуководительПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>МК стандартный руководитель подразделения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ecdb0eae-1e9e-46b3-9a32-c12b9c052e42">
+    <name>СтРеквФЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандатрный реквизит: физическое лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b833331-6b99-48d7-93e8-c4db35861f70">
+    <name>СтРеквПозШР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный реквизит: позиция ШР</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

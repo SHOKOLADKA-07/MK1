@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5df337d9-daa9-464c-ad89-025d58ed0805">
+  <name>МК_ВыгрузкаОстатковОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>МояКоманда: выгрузка остатков отпусков</value>
+  </synonym>
+  <methodName>CommonModule.МК_ФоноваяВыгрузкаОстатковОтпусков.ВыполнитьКоманду</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8885c168-d710-43fb-85c8-8c46544d1f06" extendedConfigurationObject="f513940d-716b-49fc-89a7-e64f6f57160e">
+  <producedTypes>
+    <objectType typeId="a872f526-ddf5-41e6-9e71-2d98df9911c8" valueTypeId="3a5cac38-acc4-4d0d-b258-d42f0ee00d39"/>
+    <refType typeId="d9264b17-d2ed-45e5-9e73-f9ab39c974e6" valueTypeId="c9b07623-c32a-4b42-aedd-94bd87c4aae7"/>
+    <selectionType typeId="4d48cfae-c5c4-4c28-83df-cb2b8d6e6499" valueTypeId="7e79a7d0-dfa9-4554-9bb3-04a8baf14e49"/>
+    <listType typeId="3d0f35d5-91c9-442d-9f1f-12db88245a35" valueTypeId="68b31281-51fe-4cd3-9fea-6eab8ab0f573"/>
+    <managerType typeId="635d5950-7e36-4a39-b72c-4abcb8521d2a" valueTypeId="e6daf624-b3d9-42d3-b064-e7e65cf1a693"/>
+  </producedTypes>
+  <name>ОплатаПоСреднемуЗаработкуСписком</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="247b6772-4486-47b8-bacd-1f25be865b14" extendedConfigurationObject="846f3181-b8f3-4d07-b88a-048f54cd2d8d">
+    <name>ПериодРегистрации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="44a6d90e-9229-4ae3-af5b-75b3ce6c812b" extendedConfigurationObject="9f3711e5-69f1-406d-b6f7-9e1d9ebc4707">
+  <producedTypes>
+    <objectType typeId="7afa2007-70db-49db-ae88-2da889a034b6" valueTypeId="5f3d45d6-4e53-4474-9d96-3940e98eaaaa"/>
+    <refType typeId="3345744e-9045-4bc1-8a32-2248bab53f73" valueTypeId="8d460e3d-7826-48ca-b5b3-ce7a5b4220da"/>
+    <selectionType typeId="0587b0d0-381f-4b1d-b0a2-8dd5caae5d86" valueTypeId="1f8607c0-682b-484e-a81e-62137d8d7e47"/>
+    <listType typeId="27c19a01-32e3-4c24-bd90-8ec80caa45df" valueTypeId="804cae22-dd79-4674-9673-fed8ef9237a2"/>
+    <managerType typeId="bc69678b-8305-4eb0-8497-e1beffc796d4" valueTypeId="f5ae3406-0e7b-4229-9557-c544d3507b86"/>
+  </producedTypes>
+  <name>КадровыйПеревод</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <numberType>Checked</numberType>
+    <numberLength>Checked</numberLength>
+  </extension>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <attributes uuid="bcd07138-a196-442a-a2a2-00b0952ee699" extendedConfigurationObject="448d5626-e8ad-4f6a-9860-6efa434d1f4d">
+    <name>РаботаетДистанционно</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="418d87ad-5cc9-4216-be06-156c407dc2f5" extendedConfigurationObject="d03eb016-0773-4a82-a127-efefdd5e4398">
+    <name>ИзменитьДистанционнуюРаботу</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>
