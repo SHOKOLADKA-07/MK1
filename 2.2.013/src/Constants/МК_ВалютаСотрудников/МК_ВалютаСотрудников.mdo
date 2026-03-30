@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea6f9b87-bbb5-4c76-bead-16899b01e656">
+  <producedTypes>
+    <managerType typeId="7e6b703f-3015-4b2e-80be-214c31bd89a0" valueTypeId="236beb0c-f609-40a1-bcc9-63b217c333a2"/>
+    <valueManagerType typeId="6080bae1-3417-4a20-85d4-d0393c57171c" valueTypeId="cfb9b7b9-b001-4def-80b7-ac47245eaed9"/>
+    <valueKeyType typeId="60722e66-8e84-4e67-a868-f16fc83ac36c" valueTypeId="bf520ce0-1901-4bea-871a-c22d18ed948c"/>
+  </producedTypes>
+  <name>МК_ВалютаСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Валюта сотрудников</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
