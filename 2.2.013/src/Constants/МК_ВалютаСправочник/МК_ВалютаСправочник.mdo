@@ -8,7 +8,7 @@
   <name>МК_ВалютаСправочник</name>
   <synonym>
     <key>ru</key>
-    <value>М к валюта справочник</value>
+    <value>Валюта справочник</value>
   </synonym>
   <type>
     <types>CatalogRef.Валюты</types>

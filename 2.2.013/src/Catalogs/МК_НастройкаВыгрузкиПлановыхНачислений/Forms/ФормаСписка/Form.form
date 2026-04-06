@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormField">
+    <name>ВалютаСправочник</name>
     <name>МК_Валюта</name>
     <id>40</id>
     <visible>true</visible>
@@ -49,10 +50,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Валюта</segments>
+      <segments>ВалютаСправочник</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВалютаСправочникПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>ВалютаРасширеннаяПодсказка</name>
+      <name>ВалютаСправочникРасширеннаяПодсказка</name>
       <id>39</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -62,7 +67,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВалютаКонтекстноеМеню</name>
+      <name>ВалютаСправочникКонтекстноеМеню</name>
       <id>38</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -75,7 +80,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
