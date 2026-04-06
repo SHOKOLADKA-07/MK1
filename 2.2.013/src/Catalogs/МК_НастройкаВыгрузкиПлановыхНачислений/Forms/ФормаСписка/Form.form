@@ -49,10 +49,14 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Валюта</segments>
+      <segments>ВалютаСправочник</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВалютаСправочникПриИзменении</name>
+    </handlers>
     <extendedTooltip>
-      <name>ВалютаРасширеннаяПодсказка</name>
+      <name>ВалютаСправочникРасширеннаяПодсказка</name>
       <id>39</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -62,7 +66,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ВалютаКонтекстноеМеню</name>
+      <name>ВалютаСправочникКонтекстноеМеню</name>
       <id>38</id>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -75,7 +79,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <extendedEditMultipleValues>true</extendedEditMultipleValues>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
