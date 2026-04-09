@@ -126,7 +126,6 @@
   <constants>Constant.МК_ВыгружатьОргСтруктуру</constants>
   <constants>Constant.МК_СписокПодразделенийСтруктура</constants>
   <constants>Constant.МК_ВалютаСотрудников</constants>
-  <constants>Constant.МК_ТестоваяКонстанта</constants>
   <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ОснованияУвольнения</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
