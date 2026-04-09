@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58b3d603-d258-4166-8876-c12e92bcbc7d">
+  <producedTypes>
+    <managerType typeId="0ace6069-8d15-4002-b521-25b83e081312" valueTypeId="e59c972f-b923-4c87-bf2b-85620b93aee8"/>
+    <valueManagerType typeId="bea5e983-e19d-456e-9ad1-6ad34dd73c32" valueTypeId="2eab8bb2-dfc3-42fb-b1c3-ed6d7e769729"/>
+    <valueKeyType typeId="4f2faae2-0046-4876-8439-c1c43cc40b94" valueTypeId="d6779d8e-0134-4847-8d42-9f3841aed39a"/>
+  </producedTypes>
+  <name>МК_ТестоваяКонстанта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовая константа</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
